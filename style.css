@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    padding: 0  ;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 0px 30px;
+}
+.upheading{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    /* justify-content: flex-start; */
+    justify-content: space-between;
+    background-color: #1CA6EF;
+    padding: 5px;
+}
+h1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    color: #382dca;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-bar ul{
+    list-style: none;
+    display: flex;
+    width: 100%;
+    padding: 5px;
+    padding-top: 20px;
+    background:linear-gradient(to  right top, #60acd4de, #0075b4);
+    justify-content: space-around;
+    color: white;
+    font-weight: 400;
+    font-family: sans-serif;
+    font-size: small;
+}
+.nav-bar button{
+    padding: 10px;
+    background-color: #8A7F4F;
+    color: #000000;
+    text-shadow: 0.2px 0.1px rgba(255, 255, 255, 0.644);
+    font-weight: bold;
+    border-radius: 4px;
+    border: none;
+    position: relative;
+    top: 0;
+    margin-left: 0;
+}
+.nav-bar ul{
+flex-wrap: wrap;
+text-align: center;
+}
+/* .main-content{
+    flex: wrap;
+    width: 100%;
+    padding: 15px;
+    width: 100%;
+    justify-content: space-around;
+    word-spacing: 55px;
+    align-items: center;
+
+} */
+
+/* .main-content img{
+    padding: 40px;
+} */
+
+.statebutton{
+    text-decoration: none;
+    position: relative;
+    left: 60px;
+    padding: 5px;
+    background-color: rgba(0, 90, 0, 0.856);
+    color: white;
+    border-radius: 5px;
+    font-size: small;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: none;
+}
+.statebutton2{
+    text-decoration: none;
+    position: relative;
+    left: 0px;
+    top: 20px;
+    padding: 7px 25px;
+    background-color: rgba(0, 90, 0, 0.856);
+    color: white;
+    border-radius: 5px;
+    font-size: small;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: none;
+}
+.box-4{
+    position: relative;
+    right: 60px;
+}
+input[type="date"],
+input[type="time"]{
+    background-color: transparent;
+    border: none;
+}
+
+.icon-box img{
+    width: 75px;
+    height: auto;
+    margin-top: 0;
+}
+.main-content{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30;
+    /* justify-content: center; */
+    padding: 20px;
+    justify-content: left;
+}
+.icon-box{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    cursor: pointer;
+}
+.icon-title{
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    color: #000000c4;
+    margin-top: 20px;
+    text-align: center;
+}
+.icon-title:hover{
+    color: tomato;
+    cursor: pointer;
+}
+.icon-box:hover{
+    filter: drop-shadow(0.1px 0.1px 0px rgba(226, 90, 90, 0.719));
+
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    background-color: #1CA6EF;
+    padding: 30px 20px;
+}
+.fbox ul {
+    list-style: none;
+    text-decoration: none;
+    color: #000000;
+}
+ li a{
+    color: #000000;
+    text-decoration: none;
+    margin-bottom: 30px;
+    display: flex;
+    
+    
+ }
+ .hhlogo{
+    position: relative;
+    justify-content: center;
+    left: 50px;
+    width: 200px;
+    border: none;
+    border-radius: 60px;
+    box-shadow: 3px 6px 9px black;
+    margin-top: 25px;
+ }
+ .shandle ul{
+    display: block;
+    position: relative;
+    left: 60px; 
+    padding-right: 0;
+ }
+.shandle{
+    position: relative;
+    right: 20px;
+}
+h2{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 200;
+    font-family:'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgba(0, 0, 0, 0.767);
+}
+center{
+    margin-top: 20px;
+}
